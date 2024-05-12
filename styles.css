@@ -18,3 +18,36 @@ header .navbar ul li a:hover{
 .noticias-principales-link:hover{
     text-decoration: underline;
 }
+
+h1,h2{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .noticias-principales{
+        width: 500px;
+   
+    }
+    .noticias-principales-img{
+        width: 500px;
+        height: 150px;
+   
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .noticias-principales{
+        width: 100px;
+   
+    }
+    .noticias-principales-img{
+        width: 100px;
+        height: 80px;
+   
+    }
+    .noticias-principales-bundle{
+        width: 300px;
+        height: 150px; 
+    }
+}
